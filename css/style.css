@@ -1,0 +1,221 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+
+ol, ul {
+  list-style: none;
+}
+
+
+/* Основні стилі */
+body {
+  line-height: 1;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #F8F2EF;
+  color: #333; */
+}
+
+.container {
+    width: 390px;
+    margin: 0 auto;
+  }
+
+  /*  Header */
+  .header {
+    width: 100%;
+    height: 35px;
+    background-color: #EE2A4A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-title {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.52px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+   
+  }
+ .header-link {
+    display: none;
+ }
+
+
+ .footer {
+    min-height: 347px;
+    padding: 22px 37px 0 31px;
+ }
+
+ .footer-title {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42.36px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+ }
+
+ .footer-description {
+    display: none
+ }
+ .faq-wrap {
+margin-top: 41px;
+ }
+
+ .faq-list {
+min-height: 54px;
+border-bottom: 1px solid #000000;
+display: flex;
+flex-direction: column; 
+  justify-content: center;
+ }
+
+ .faq-title-wrap {
+    width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center; 
+margin-top: 10px;
+padding-left: 10px;
+padding-right: 9px;
+ }
+
+ .faq-title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+ }
+
+ .faq-toggle-button {
+    font-size: 16.08px;
+    font-weight: 400;
+    line-height: 19.46px;
+    background-color: transparent;
+    border: none;
+ }
+
+ .faq-description {
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+ }
+  /* Media Query for Mobile */
+@media (max-width: 1439px) {
+
+  
+  }
+  
+  /* Media Query for Desktop (1440px) */
+  @media (min-width: 1440px) {
+    .container {
+        width: 1440px;
+      }
+
+      .header-link {
+        display: block;
+       font-size: 14px;
+font-weight: 700;
+line-height: 16.94px;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+margin-left: 38px;
+     }
+
+
+
+
+
+     .footer {
+        min-height: 403px;
+        padding: 58px 188px 0 185px;
+        display: flex;
+        justify-content: space-between;
+     }
+    
+     .footer-title-wrap {
+        width: 475px;
+     }
+    
+     .footer-description {
+        margin-top: 19.5px;
+        display: block;
+      font-size: 18px;
+font-weight: 400;
+line-height: 21.78px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+     }
+     .faq-wrap {
+        width: 469px;
+    margin-top: 0px;
+     }
+    
+     .faq-list {
+    min-height: 75px;
+    border-bottom: 1.25px solid #000000;
+     }
+    
+     .faq-title-wrap {
+    
+     }
+    
+     .faq-title {
+font-size: 19.21px;
+line-height: 23.25px;
+      
+     }
+    
+     .faq-toggle-button {
+        font-size: 22px;
+     line-height: 26px;
+     }
+    
+     .faq-description {
+    font-size: 16px;
+    line-height: 18px;
+     }
+  }
