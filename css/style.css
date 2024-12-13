@@ -196,6 +196,42 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 border: none;
 }
+
+/*  Compaigns-logo */
+.compaigns-logo {
+    background-color: #EE2A4A;
+width: 100%;
+height: 120px;
+padding-left: 50.5px;
+display: flex;
+align-items: center;
+}
+
+.compaigns-logo-img-askmen-wrap {
+    display: none;
+}
+
+.compaigns-logo-img-vice-wrap {
+    width: 212px;
+    text-align: end;
+}
+.compaigns-logo-img-vice {
+    /* width: 90px;
+    height: 29px; */
+    margin-right: 22.5px;
+}
+
+.compaigns-logo-title {
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+.compaigns-logo-img-purewow-wrap {
+    display: none;
+}
  /*  Footer */
  .footer {
     min-height: 347px;
@@ -366,10 +402,6 @@ border: none;
     margin-left: 17.8px;
     width: 261px;
 }
-.hero-review-name-wrap {
- 
-   
-}
 
 .hero-review-name {
     font-size: 12.48px;
@@ -395,9 +427,34 @@ line-height: 22.68px;
    
 }
 
+/*  Compaigns-logo */
+.compaigns-logo {
+height: 210px;
+padding: 0px 272px;
+gap: 170px;
+;
+}
 
+.compaigns-logo-img-askmen-wrap {
+    display: block;
+}
 
+.compaigns-logo-img-vice-wrap {
+    width: auto;
+    text-align: end;
+}
+.compaigns-logo-img-vice {
+    margin-right: 0px;
+}
 
+.compaigns-logo-title {
+margin-top: 16px;
+}
+.compaigns-logo-img-purewow-wrap {
+    display: block;
+}
+
+/*  Footer */
      .footer {
         min-height: 403px;
         padding: 58px 188px 0 185px;
