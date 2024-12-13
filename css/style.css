@@ -232,6 +232,104 @@ color: #FFFFFF;
 .compaigns-logo-img-purewow-wrap {
     display: none;
 }
+
+/*  three Reasons */
+.three-reasons {
+    height: 500px;
+    padding-top: 23px;
+    padding-left: 20px;
+    padding-right: 12.5px;
+}
+
+.three-reasons-title-btn-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.three-reasons-title-wrap {
+    width: 194px;
+}
+.three-reasons-title {
+font-size: 35.68px;
+font-weight: 400;
+line-height: 43.18px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.three-reasons-description {
+    margin-top: 4px;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.three-reasons-btn-wrap {
+    display: flex;
+    gap: 8.5px;
+    align-items: end;
+}
+
+.three-reasons-btn {
+    width: 22.46px;
+height: 22.46px;
+font-weight: 700;
+    border-radius: 50%;
+    border: 0.77px solid #000000;
+   background-color: #FFFFFF;
+}
+.three-reasons-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+.three-reasons-list {
+    width: 276.68px;
+height: 296.55px;
+border: 1.45px solid #000000;
+background-color: #F6F4ED;
+padding: 20px 23.5px 29px 25px;
+display: none;
+}
+
+  .three-reasons-list.active {
+    display: block;
+  }
+
+.three-reasons-lst-number {
+    display: block;
+    text-align: center;
+    width: 57.01px;
+height: 26.78px;
+background-color: #EE2A4A;
+font-size: 20.73px;
+font-weight: 700;
+line-height: 25.09px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+
+.three-reasons-list-title {
+font-size: 22.46px;
+font-weight: 400;
+line-height: 27.18px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 14.5px;
+}
+
+.three-reasons-list-description {
+font-size: 15.55px;
+font-weight: 400;
+line-height: 18.82px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 11px;
+}
+
  /*  Footer */
  .footer {
     min-height: 347px;
@@ -453,6 +551,73 @@ margin-top: 16px;
 .compaigns-logo-img-purewow-wrap {
     display: block;
 }
+
+/*  three Reasons */
+.three-reasons {
+    height: 560px;
+    padding-top: 45px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.three-reasons-title-btn-wrap {
+    justify-content: center;
+   
+}
+.three-reasons-title-wrap {
+    width: 421px;
+    text-align: center;
+}
+.three-reasons-title {
+font-size: 35px;
+line-height: 42.36px;
+}
+
+.three-reasons-description {
+   display: none;
+}
+
+.three-reasons-btn-wrap {
+    display: none;
+}
+
+
+.three-reasons-wrap {
+    margin-top: 28.8px;
+    gap: 31.7px;
+}
+
+.three-reasons-list {
+    width: 321.32px;
+height: 343.32px;
+border: 1.45px solid #000000;
+background-color: #F6F4ED;
+padding: 23px 40px 0px 29px;
+display: block;
+}
+
+.three-reasons-lst-number {
+      width: 66px;
+height: 31px;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.09px;
+
+}
+
+.three-reasons-list-title {
+font-size: 26px;
+line-height: 31.5px;
+margin-top: 12.6px;
+}
+
+.three-reasons-list-description {
+font-size: 18px;
+line-height: 22px;
+margin-top: 15px;
+}
+
+
 
 /*  Footer */
      .footer {
