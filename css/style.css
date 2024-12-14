@@ -330,6 +330,104 @@ text-decoration-skip-ink: none;
 margin-top: 11px;
 }
 
+/*  Three Products */
+.three-products {
+    background-color: #F6F4ED;
+height: 740px;
+}
+
+.three-products-review-info {
+    height: 60px;
+    background-color: #A5D8E8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.three-products-review-img {
+    width: 27.8px;
+    height: 27.8px;
+}
+
+.three-products-review-text {
+font-size: 13.74px;
+font-weight: 400;
+line-height: 16.63px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-align: center;
+}
+
+.three-products-review-text-bold {
+font-weight: 700;
+}
+.three-products-info {
+    margin-top: 33.8px;
+    text-align: center;
+}
+
+.three-products-text {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.three-products-title {
+font-size: 28px;
+font-weight: 400;
+line-height: 33.89px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.three-products-description {
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-right: 135px;
+margin-top: 10.8px;
+}
+
+.three-products-list-wrap {
+margin-top: 24.7px;
+padding-right: 124px;
+}
+
+.three-products-list {
+    display: flex;
+}
+.three-products-list:not(:first-child) {
+    margin-top: 27.7px;
+}
+
+.three-products-list-description-wrap {
+    padding-left: 12px;
+}
+.three-products-list-title {
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.three-products-list-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 2.5px;
+    
+}
  /*  Footer */
  .footer {
     min-height: 347px;
@@ -617,7 +715,79 @@ line-height: 22px;
 margin-top: 15px;
 }
 
+/*  Three Products */
+.three-products {
+height: 545px;
+}
 
+.three-products-review-info {
+    height: 70px;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+
+.three-products-review-img {
+    width: 41px;
+    height: 41px;
+}
+
+.three-products-review-text {
+font-size: 20.29px;
+line-height: 24.56px;
+}
+
+
+.three-products-info {
+    display: flex;
+    margin-top: 39px;
+
+    text-align: center;
+}
+
+.three-products-info-img {
+    width: 427.95px;
+    height: 397.94px; 
+    margin-left: 290px;
+}
+
+.three-products-text {
+    margin-top: 51px;
+    margin-left: 66px;
+}
+.three-products-title {
+font-size: 35px;
+line-height: 42.36px;
+}
+
+.three-products-description {
+font-size: 16px;
+line-height: 19.36px;
+padding-right: 340px;
+margin-top: 23.2px;
+}
+
+.three-products-list-wrap {
+margin-top: 24.7px;
+padding-right: 365px;
+}
+
+.three-products-list:not(:first-child) {
+    margin-top: 21.8px;
+}
+
+.three-products-list-description-wrap {
+    padding-left: 14px;
+}
+.three-products-list-title {
+font-size: 18.17px;
+line-height: 21.99px;
+}
+
+.three-products-list-description {
+    font-size: 15.9px;
+    line-height: 19.25px;
+    margin-top: 2.2px; 
+}
 
 /*  Footer */
      .footer {
