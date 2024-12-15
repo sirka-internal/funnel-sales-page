@@ -428,6 +428,68 @@ text-decoration-skip-ink: none;
     margin-top: 2.5px;
     
 }
+
+/* Real Customers */
+
+.real-customers {
+padding-top: 32px;
+padding-bottom: 28.7px;
+}
+.real-customers-title {
+font-size: 28px;
+font-weight: 700;
+line-height: 33.89px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-left: 90px;
+padding-right: 90px;
+}
+#real-customers-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 390px;
+    overflow: hidden;
+    margin-top: 24px;
+  }
+  
+  #images-container {
+    display: flex;
+    gap: 26px;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    margin-left: 100px;
+
+    
+  }
+  
+  .real-customers-slide-image {
+    width: 238px;
+    object-fit: cover;
+  }
+
+  .real-customers-btn-wrap {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30.5px;
+  }
+  .real-customers-btn {
+    width: 22.13px;
+    height: 22.13px;
+    border: 0.76px solid #000000;
+   border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+
+  }
+
  /*  Footer */
  .footer {
     min-height: 347px;
@@ -789,6 +851,45 @@ line-height: 21.99px;
     margin-top: 2.2px; 
 }
 
+/* Real Customers */
+
+.real-customers {
+    height: 640px;
+    padding-top: 46px;
+    padding-bottom: 84.5px;
+    }
+    .real-customers-title {
+    font-size: 35px;
+    line-height: 42.36px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+
+    #real-customers-slide {
+        width: auto;
+        overflow: auto;
+        margin-top: 44px;
+     }
+      
+      #images-container {
+        margin-left: 0px;
+        align-items: center;
+        justify-content: center;
+        gap: 25.35px;
+        transition: none;
+      }
+      
+      .real-customers-slide-image {
+        width: 231.5px;
+      }
+    
+      .real-customers-btn-wrap {
+        display: none;
+      }
+
+
+      
 /*  Footer */
      .footer {
         min-height: 403px;
