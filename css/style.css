@@ -489,8 +489,147 @@ padding-right: 90px;
 
 
   }
+/* Three Step System  */ 
 
- /*  Footer */
+  .three-step-system-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .three-step-system-images img {
+    width: 339.71px;
+    height: 339.71px;
+
+  }
+  .thumbnail-list {
+    margin-top: 7px;
+  }
+
+  .thumbnail-list img {
+    width: 65px;
+    height: 65px;
+  }
+  .product-details {
+    flex: 1;
+  }
+
+.three-step-system-about-wrap {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20.9px;
+}
+
+.three-step-system-reviews-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.three-step-system-reviews-stars {
+    color: #EE2A4A;
+    font-size: 16px;
+    line-height: 1;
+    margin: 0;
+    }
+
+.three-step-system-reviews-text {
+font-size: 11.03px;
+font-weight: 400;
+line-height: 13.35px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 0 0 0 5.9px; 
+}
+
+.three-step-system-about-title {
+font-size: 30.88px;
+font-weight: 400;
+line-height: 37.37px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 5.4px;
+}
+
+.three-step-system-about-description {
+font-size: 13px;
+font-weight: 400;
+line-height: 15.73px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 12.65px;
+width: 234px;
+padding-left: 20px;
+}
+
+.three-step-system-about-description p:not(:first-child) {
+    margin-top: 9px;
+}
+
+.three-step-system-about-btn {
+    width: 333px;
+height: 45px;
+background-color: #EE2A4A;
+color: #FFFFFF;
+font-size: 17px;
+font-weight: 700;
+line-height: 20.57px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+border: none;
+margin-left: auto;
+margin-right: auto;
+display: block; 
+margin-top: 20px;
+}
+
+.three-step-system-about-faq-wrap {
+    margin-top: 22.8px;
+    display: block;
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tss-faq-list:not(:first-child) {
+margin-top: 14px;
+}
+
+.tss-faq-title-wrap {
+display: flex;
+justify-content: space-between;
+}
+
+.tss-faq-title {
+    font-size: 14.03px;
+    font-weight: 400;
+    line-height: 16.99px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
+.tss-faq-toggle-button {
+background-color: transparent;
+border: none;
+font-size: 14.03px;
+font-weight: 400;
+line-height: 16.99px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.tss-faq-description {
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+ /*  Footer */ 
  .footer {
     min-height: 347px;
     padding: 22px 37px 0 31px;
@@ -888,7 +1027,117 @@ line-height: 21.99px;
         display: none;
       }
 
+/* Three Step System  */ 
+.three-step-system {
+   display: flex;
+   padding: 49px 220px 62px 218px;
+  }
 
+  .three-step-system-images {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    
+  }
+
+  .three-step-system-images img {
+    width: 420px;
+    height: 420px;
+
+  }
+  .thumbnail-list {
+    display: flex;
+    flex-direction: column;
+   gap: 10px;
+    margin-top: 0px;
+    margin-right: 9.5px;
+  }
+
+  .thumbnail-list img {
+    width: 65px;
+    height: 65px;
+  }
+  .product-details {
+    flex: 1;
+  }
+
+.three-step-system-about-wrap {
+    padding-left: 62px;
+    padding-right: 0px;
+    padding-top: 35px;
+    width: 513px;
+}
+
+.three-step-system-reviews-wrap {
+    display: flex;
+}
+
+
+.three-step-system-reviews-stars {
+    font-size: 18px; 
+
+    }
+
+.three-step-system-reviews-text {
+font-size: 13.52px;
+line-height: 16.36px;
+margin: 0 0 0 7.5px; 
+}
+
+.three-step-system-about-title {
+    margin-top: 10.8px;   
+font-size: 38.77px;
+line-height: 46.92px;
+text-align: left;
+}
+
+.three-step-system-about-description {
+font-size: 13.29px;
+font-weight: 700;
+line-height: 16.09px;
+width: 100%;
+padding-left: 14.4px;
+}
+
+.three-step-system-about-description p:not(:first-child) {
+    margin-top: 8px;
+}
+
+.three-step-system-about-btn {
+    width: 100%;
+height: 50px;
+font-size: 17.72px;
+line-height: 21.45px;
+margin-top: 20.9px;
+}
+
+.three-step-system-about-faq-wrap {
+    margin-top: 29px;
+    width: 100%;
+}
+
+.tss-faq-list:not(:first-child) {
+margin-top: 18.9px;
+}
+
+.tss-faq-title {
+    font-size: 17.72px;
+    line-height: 21.45px;   
+}
+
+.tss-faq-toggle-button {
+    font-size: 17.72px;
+    line-height: 21.45px;
+}
+
+.tss-faq-description {
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
       
 /*  Footer */
      .footer {
@@ -923,9 +1172,6 @@ text-decoration-skip-ink: none;
     border-bottom: 1.25px solid #000000;
      }
     
-     .faq-title-wrap {
-    
-     }
     
      .faq-title {
 font-size: 19.21px;

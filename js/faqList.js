@@ -1,5 +1,5 @@
 // Дані у форматі JSON
-fetch("./js/data.json")
+fetch("./js/faqList-data.json")
   .then((response) => {
     if (!response.ok) {
       throw new Error("Network response was not ok");
