@@ -491,6 +491,9 @@ padding-right: 90px;
   }
 /* Three Step System  */ 
 
+.three-step-system {
+    padding-bottom: 97px;
+}
   .three-step-system-images {
     display: flex;
     flex-direction: column;
@@ -629,6 +632,115 @@ text-decoration-skip-ink: none;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
+/*  Easy to Use */ 
+
+.easy-to-use {
+    padding-left: 20px;
+    padding-bottom: 50.5px;
+}
+
+.easy-to-use-title-wrap {
+    display: flex;
+}
+.easy-to-use-title {
+font-size: 28px;
+font-weight: 400;
+line-height: 33.89px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+#easy-to-use-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* width: 390px; */
+    overflow: hidden;
+    margin-top: 24px;
+  }
+  
+  #easy-to-use-images-container {
+    display: flex;
+    gap: 26px;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    margin-left: 0px;
+
+  }
+  
+.easy-to-use-image-container {
+    min-width: 225px;
+    height: 305px;
+    border: 1.71px solid #000000;
+    overflow: hidden;
+}
+  
+
+  .easy-to-use-image {
+    display: block; 
+    /* width: 100%;  */
+    height: 170px;
+    object-fit: cover;
+  }
+
+  .easy-to-use-about-wrap {
+padding: 11px 0 0 15px;
+  }
+  .easy-to-use-step {
+    background-color: #EE2A4A;
+    color: #FFFFFF;
+    display: block;
+    width: 72px;
+    height: 16.9px;
+    border-radius: 10px;
+    font-size: 11.89px;
+    font-weight: 400;
+    line-height: 14.39px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+
+  .easy-to-use-about-title {
+    font-size: 20.76px;
+    font-weight: 400;
+    line-height: 25.13px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 8px;
+  }
+
+  .easy-to-use-description {
+font-size: 13.21px;
+font-weight: 400;
+line-height: 15.99px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 4.3px;
+padding-right: 70px;
+  }
+  .easy-to-use-btn-wrap {
+    display: flex;
+    gap: 8.5px;
+    align-items: end;
+    margin-right: 26px;
+  }
+  .easy-to-use-btn {
+    width: 22.13px;
+    height: 22.13px;
+    border: 0.76px solid #000000;
+   border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
  /*  Footer */ 
  .footer {
     min-height: 347px;
@@ -1030,7 +1142,7 @@ line-height: 21.99px;
 /* Three Step System  */ 
 .three-step-system {
    display: flex;
-   padding: 49px 220px 62px 218px;
+   padding: 49px 220px 117px 218px;
   }
 
   .three-step-system-images {
@@ -1139,6 +1251,75 @@ margin-top: 18.9px;
     text-decoration-skip-ink: none;
 }
       
+/*  Easy to Use */ 
+
+.easy-to-use {
+    padding-left: 0px;
+    padding-bottom: 106.7px;
+}
+
+.easy-to-use-title-wrap {
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.easy-to-use-title {
+font-size: 35px;
+line-height: 42.36px;
+text-align: center;
+}
+
+.easy-to-use-btn-wrap {
+    display: none;
+  }
+
+#easy-to-use-slide {
+ 
+    margin-top: 29.8px;
+  }
+  
+  #easy-to-use-images-container {
+    gap: 58.6px;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  
+.easy-to-use-image-container {
+    min-width: 273px;
+    width: 273px;
+    height: 364px;
+}
+  
+  .easy-to-use-image {
+    height: 205px;
+  }
+
+  .easy-to-use-about-wrap {
+padding: 13px 0 0 17px;
+  }
+
+  .easy-to-use-step {
+    width: 87px;
+    height: 20.3px;
+    font-size: 14.34px;
+    font-weight: 400;
+    line-height: 17.35px;
+   }
+
+  .easy-to-use-about-title {
+    font-size: 25.03px;
+    line-height: 30.29px;
+    margin-top: 9.7px;
+  }
+
+  .easy-to-use-description {
+font-size: 16px;
+line-height: 19.28px;
+
+margin-top: 5.3px;
+padding-right: 70px;
+  }
+
 /*  Footer */
      .footer {
         min-height: 403px;
