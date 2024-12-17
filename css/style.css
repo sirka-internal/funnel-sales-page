@@ -807,6 +807,28 @@ text-align: center;
     text-decoration-skip-ink: none;
     
 }
+/*Table*/
+.table {
+    padding-top: 57.5px;
+    text-align: center;
+}
+
+.table-title {
+font-size: 28px;
+font-weight: 400;
+line-height: 33.89px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-left: 60px;
+    padding-right: 60px;
+  }
+  
+  .table-info {
+    margin-top: 37px;
+    width: 356.5px;
+  }
+
  /*  Footer */ 
  .footer {
     min-height: 347px;
@@ -1447,6 +1469,21 @@ margin-top: 29.5px;
    
 }
 
+
+/*Table*/
+.table {
+    padding-top: 88px;
+}
+
+.table-title {
+font-size: 35px;
+line-height: 42.36px;
+  }
+  
+  .table-info {
+    margin-top: 37px;
+    width: 932px;
+  }
 /*  Footer */
      .footer {
         min-height: 403px;
