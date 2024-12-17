@@ -741,6 +741,72 @@ padding-right: 70px;
     align-items: center;
     padding: 0;
   }
+/*  Dermatologists */ 
+
+.dermatologists {
+    background-color: #F6F4ED;
+    position: relative;
+    padding-top: 119px;
+    padding-bottom: 30.6px;
+    text-align: center;
+}
+
+.dermatologists-image {
+    width: 324.89px;
+height: 324.89px;
+}
+
+.dermatologists-about {
+    margin-top: 22px;
+    padding-left: 40px;
+    padding-right: 79px;
+}
+.dermatologists-title {
+    position: absolute;
+    top: 31px;
+font-size: 28px;
+font-weight: 400;
+line-height: 33.89px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.dermatologists-stars {
+color: #EE2A4A;
+font-size: 18px;
+text-align: center;
+}
+
+.dermatologists-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 13.25px;
+}
+
+.dermatologists-name {
+    font-size: 19.63px;
+    font-weight: 400;
+    line-height: 23.75px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    margin-top: 16.46px;
+
+}
+
+.dermatologists-surname {
+    font-size: 14.72px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 17.81px;
+    text-decoration-skip-ink: none;
+    
+}
  /*  Footer */ 
  .footer {
     min-height: 347px;
@@ -1319,6 +1385,67 @@ line-height: 19.28px;
 margin-top: 5.3px;
 padding-right: 70px;
   }
+
+  /*  Dermatologists */ 
+
+.dermatologists {
+    display: flex;
+    padding-top: 82.5px;
+    padding-bottom: 82.5px;
+
+    position: relative;
+}
+
+.dermatologists-image {
+    min-width: 420.36px;
+    width: 420.36px;
+    height: 420.36px;
+    margin-left: 239px;
+}
+
+.dermatologists-about {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 91.3px;
+    padding-right: 0px;
+}
+.dermatologists-title {
+    position: relative;
+    top: 0px;
+    font-size: 32.91px;
+    line-height: 39.89px;
+    text-align: left;
+
+}
+
+.dermatologists-stars {
+color: #EE2A4A;
+font-size: 30px;
+text-align: left;
+margin-top: 29.5px;
+}
+
+.dermatologists-description {
+    font-size: 23.51px;
+    line-height: 28.45px;
+    margin-top: 13.25px;
+    padding-right: 252px;
+}
+
+.dermatologists-name {
+    font-size: 30.53px;
+    line-height: 36.95px;
+    text-align: left;
+    margin-top: 25.3px;
+
+}
+
+.dermatologists-surname {
+    font-size: 22.9px;
+    line-height: 27.71px;
+   
+}
 
 /*  Footer */
      .footer {
