@@ -986,6 +986,59 @@ text-decoration-skip-ink: none;
 margin-top: 10px;
  }
 
+/*  Good Bye */
+.good-bye {
+    background-color: #F3D8C8;
+}
+
+.good-bye-title-wrap {
+    padding: 35px 35px 0px 35px;
+    text-align: center;
+}
+
+.good-bye-review {
+    display: none;
+}
+.good-bye-title {
+font-size: 36.79px;
+font-weight: 400;
+line-height: 44.52px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.good-bye-description {
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 5.5px;
+padding-right: 55px;
+}
+
+.good-bye-btn {
+    width: 260px;
+height: 35.13px;
+    background-color: #EE2A4A;
+    color: #FFFFFF;
+       font-size: 13.27px;
+    font-weight: 700;
+    line-height: 16.06px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: none;
+margin-top: 27.5px;
+}
+
+.good-bye-image {
+width: 390px;
+}
+
  /*  Footer */ 
  .footer {
     min-height: 347px;
@@ -1757,6 +1810,69 @@ margin-left: 4.5px;
     line-height: 27.4px;
     margin-top: 18px;
      }
+
+     /*  Good Bye */
+.good-bye {
+    background-color: #F6F4ED;
+    display: flex;
+}
+
+.good-bye-title-wrap {
+    padding: 0px 0px 0px 184px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.good-bye-review {
+    display: flex;
+    align-items: center;
+}
+
+.good-bye-review-star {
+    color: #EE2A4A;
+    font-size: 24px;
+}
+
+.good-bye-review-title {
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-left: 11.8px;
+}
+
+.good-bye-title {
+font-size: 60px;
+font-weight: 400;
+line-height: 72.61px;
+margin-top: 7.7px;
+}
+
+.good-bye-description {
+font-size: 18px;
+line-height: 21.78px;
+margin-top: 10.7px;
+padding-right: 148px;
+}
+
+.good-bye-btn {
+    width: 320px;
+height: 50px;
+       font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+margin-top: 35.4px;
+}
+
+.good-bye-image {
+width: 677px;
+margin-right: 40px;
+}
 
 /*  Footer */
      .footer {
