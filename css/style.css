@@ -278,6 +278,9 @@ font-weight: 700;
     border-radius: 50%;
     border: 0.77px solid #000000;
    background-color: #FFFFFF;
+   display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .three-reasons-wrap {
     display: flex;
@@ -811,6 +814,7 @@ text-align: center;
 .table {
     padding-top: 57.5px;
     text-align: center;
+    padding-bottom: 68px;
 }
 
 .table-title {
@@ -829,6 +833,120 @@ padding-left: 60px;
     width: 356.5px;
   }
 
+
+   /*  Sweat Free */ 
+   .sweat-free {
+    padding-left: 20px;
+    padding-bottom: 65px;
+}
+
+.sweat-free-title-wrap {
+    display: flex;
+}
+.sweat-free-title {
+font-size: 30px;
+font-weight: 400;
+line-height: 36.31px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.sweat-free-btn-wrap {
+    display: flex;
+    gap: 8.5px;
+    align-items: end;
+    margin-right: 16,5px;
+  }
+  .sweat-free-btn {
+    width: 22.13px;
+    height: 22.13px;
+    border: 0.76px solid #000000;
+   border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+#sweat-free-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 18px;
+  }
+  
+  #sweat-free-images-container {
+    display: flex;
+    gap: 26px;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    margin-left: 0px;
+
+  }
+
+  .sweat-free-about-wrap {
+padding: 46px 20px 0 20px;
+min-width: 245px;
+width: 245px;
+height: 265px;
+border: 1.29px solid #000000;
+overflow: hidden;
+background-color: #F6F4ED;
+
+  }
+
+.sweat-free-about-stars {
+    color: #EE2A4A;
+    text-align: center;
+    font-size: 18px;
+
+}
+  .sweat-free-about-title {
+    font-size: 19.93px;
+    font-weight: 400;
+    line-height: 24.12px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 10.6px;
+  }
+
+  .sweat-free-about-description {
+font-size: 12.27px;
+font-weight: 400;
+line-height: 14.85px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 17px;
+/* padding-right: 70px; */
+  }
+
+.sweat-free-about-verified {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sweat-free-about-verified-icon {
+    width: 9.15px;
+    height: 9.15px;
+    color: #EE2A4A;
+}
+.sweat-free-about-verified-name {
+font-size: 9.15px;
+font-weight: 700;
+line-height: 11.07px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-left: 3.5px;
+}
  /*  Footer */ 
  .footer {
     min-height: 347px;
@@ -904,6 +1022,7 @@ line-height: 12px;
   /* Media Query for Desktop (1440px) */
   @media (min-width: 1440px) {
     .container {
+        min-width: 1440px;
         width: 1440px;
       }
 
@@ -1473,6 +1592,7 @@ margin-top: 29.5px;
 /*Table*/
 .table {
     padding-top: 88px;
+    padding-bottom: 95px;
 }
 
 .table-title {
@@ -1484,6 +1604,80 @@ line-height: 42.36px;
     margin-top: 37px;
     width: 932px;
   }
+
+   /*  Sweat Free */ 
+   .sweat-free {
+    padding-left: 0px;
+    padding-bottom: 146px;
+}
+
+.sweat-free-title-wrap {
+    align-items: center;
+    justify-content: center;
+}
+
+.sweat-free-title {
+font-size: 35px;
+line-height: 42.35px;
+text-align: center;
+}
+
+.sweat-free-btn-wrap {
+    display: none;
+  }
+
+#sweat-free-slide {
+    margin-top: 34px;
+  }
+  
+  #sweat-free-images-container {
+     gap: 39px;
+     justify-content: center;
+  }
+
+  .sweat-free-about-wrap {
+padding: 62px 30px 0 30px;
+min-width: 325px;
+width: 325px;
+height: 347px;
+border: 2px solid #000000;
+  }
+
+.sweat-free-about-stars {
+
+    font-size: 24px;
+
+}
+  .sweat-free-about-title {
+    font-size: 26px;
+    line-height: 31.47px;
+    margin-top: 13.8px;
+  }
+
+  .sweat-free-about-description {
+font-size: 16px;
+line-height: 19.36px;
+margin-top: 32px;
+/* padding-right: 70px; */
+  }
+
+.sweat-free-about-verified {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sweat-free-about-verified-icon {
+    width: 12px;
+    height: 12px;
+}
+.sweat-free-about-verified-name {
+font-size: 12px;
+line-height: 14.44px;
+margin-left: 4.5px;
+}
+
 /*  Footer */
      .footer {
         min-height: 403px;
